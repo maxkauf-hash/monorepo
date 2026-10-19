@@ -1,4 +1,4 @@
-import { db } from "@repo/database";
+import { db } from "@packages/database";
 import fp from "fastify-plugin";
 
 export const databasePlugin = fp(

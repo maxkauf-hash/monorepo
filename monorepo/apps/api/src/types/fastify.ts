@@ -1,5 +1,5 @@
 import type { Env } from "@/config/env.js";
-import type { Database } from "@repo/database";
+import type { Database } from "@packages/database";
 
 declare module "fastify" {
   interface FastifyInstance {
