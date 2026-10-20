@@ -1,14 +1,17 @@
 {
-  "name": "fastify",
+  "name": "cli-monorepo-02",
   "version": "1.0.0",
-  "private": true,
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.5"
+  }
 }
