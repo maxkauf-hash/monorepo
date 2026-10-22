@@ -5,6 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "dev:npm": "npm --prefix apps/api run dev",
+    "dev:yarn": "yarn --cwd apps/api dev",
+    "dev:bun": "bun --cwd apps/api run dev",
+    "dev:pnpm": "pnpm -C apps/api dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
